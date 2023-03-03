@@ -4,6 +4,9 @@ import Laptop from '../../components/laptop/Laptop'
 import Footer from '../../components/footer/Footer'
 import Hero from '../../components/hero/Hero'
 import Navbar from '../../components/navbar/Navbar'
+import Card from '../../components/socialCard/Card'
+import Gallery from '../../components/gallery/Gallery'
+import Partners from '../../components/partners/Partners'
 
 export const Home = () => {
   return (
@@ -13,9 +16,7 @@ export const Home = () => {
         </Parallax> */}
         {/* <Navbar /> */}
         <Hero />
-        {/* <Laptop /> */}
-        <Footer />
-        
+        <Laptop />
     </>
   )
 }

@@ -2,7 +2,7 @@ import './laptop.scss'
 
 const Laptop = () => {
   return (
-    <div>
+    <div className='laptop'>
       <div class="frint-top-video">
         <div class="frint-top-video2">
           <iframe
