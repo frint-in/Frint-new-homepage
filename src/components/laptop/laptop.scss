@@ -1,0 +1,25 @@
+.frint-top-video {
+    width: 100%;
+    height: 100%;
+    max-width: 1034px;
+    max-height: 543px;
+    margin: 0 auto;
+}
+.frint-top-video .frint-top-video2 {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+.frint-top-video iframe {
+    box-sizing: border-box;
+    // background: url(https://www.frintcentre.co.uk/wp-content/uploads/2018/02/macbook.png) center center no-repeat;
+    background: url('../../assets/macbook.png') center center no-repeat;
+    background-size: contain;
+    padding: 11.9% 15.5% 14.8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
