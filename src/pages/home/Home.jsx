@@ -11,10 +11,11 @@ export const Home = () => {
         {/* <Parallax pages={4}>
         <ParallaxLayer></ParallaxLayer>
         </Parallax> */}
-        {/* <Footer /> */}
         {/* <Navbar /> */}
         <Hero />
-        <Laptop />
+        {/* <Laptop /> */}
+        <Footer />
+        
     </>
   )
 }
