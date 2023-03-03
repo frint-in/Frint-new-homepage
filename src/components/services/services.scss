@@ -1,0 +1,140 @@
+.wrapper {
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+}
+
+/* #about{
+    color: white;
+    background: black;
+} */
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+
+    .sectionName {
+        width: 60%;
+
+        .sectionBorder {
+            width: 73px;
+            height: 0px;
+            border: 1px solid #DFE7FF;
+        }
+
+        .sectionName {
+            width: 80%;
+            text-align: left;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: .9em;
+            line-height: 97.5%;
+            /* identical to box height, or 12px */
+
+            letter-spacing: 0.4em;
+
+            color: #000000;
+        }
+    }
+
+
+    .serviceDetails {
+        div {
+            width: 80%;
+            text-align: left;
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10em;
+            line-height: 97.5%;
+            /* or 62px */
+            color: #18181B;
+            text-align: left;
+        }
+
+    }
+}
+
+.scroll {
+    width: 40%;
+
+}
+
+.scroll div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.serviceBody {
+    padding: 2em;
+    // position: absolute;
+    // width: 529px;
+    // height: 100vh;
+    margin: 4em;
+    // margin-bottom: 4em;
+    // left: 865px;
+    // top: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
+    border-radius: 20px;
+
+    img {
+        width: 20em;
+    }
+
+    h2 {
+        padding-top: 1em;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2em;
+        line-height: 97.5%;
+    }
+
+    p {
+        padding-top: 2em;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.3em;
+        line-height: 130%;
+        /* or 31px */
+
+        text-align: center;
+    }
+}
+
+/* .scroll div > h2 {
+    width: 80%;
+    text-align: center;
+}
+
+.scroll div > p {
+    width: 80%;
+} */
+
+/* .scroll div:nth-child(1){
+    background: #D83F87;
+}
+
+.scroll div:nth-child(2){
+    background: #4ABDAC;
+}
+
+.scroll div:nth-child(3){
+    background: #44318D;
+} */

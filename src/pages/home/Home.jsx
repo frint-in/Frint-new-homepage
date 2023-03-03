@@ -7,6 +7,7 @@ import Navbar from '../../components/navbar/Navbar'
 import Card from '../../components/socialCard/Card'
 import Gallery from '../../components/gallery/Gallery'
 import Partners from '../../components/partners/Partners'
+import Services from '../../components/services/Services'
 
 export const Home = () => {
   return (
@@ -15,8 +16,11 @@ export const Home = () => {
         <ParallaxLayer></ParallaxLayer>
         </Parallax> */}
         {/* <Navbar /> */}
+
         <Hero />
         <Laptop />
+        <Services/>
+        <Footer />
     </>
   )
 }
