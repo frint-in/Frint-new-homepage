@@ -11,11 +11,11 @@ const Categories = () => {
                         <h2>Choose an Internship <br></br> that suits you</h2>
                     </div>
                     <div className="right-cont">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem praesentium autem atque. Rem cupiditate tempore cum at dolores, officia dolorem numquam reiciendis dicta fuga voluptas culpa praesentium quae unde laborum odit nemo tempora pariatur tenetur ea facilis, recusandae obcaecati possimus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nihil voluptatibus mollitia reprehenderit porro dolorum molestias quibusdam nemo sed iure earum architecto, eius facere saepe. Necessitatibus qui animi optio veritatis.
                     </div>
                 </div>
                 <div className="cat-cards">
-                    <div className="cards-main">
+                    <div className="cards-main-1">
                         <img src="src\assets\image 9.png" alt="" />
                         <h2>Technology</h2>
                         <ul className='cards-list'>
@@ -47,7 +47,7 @@ const Categories = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="cards-main">
+                    <div className="cards-main-2">
                         <img src="src\assets\image 9.png" alt="" />
                         <h2>Creative</h2>
                         <ul className='cards-list'>

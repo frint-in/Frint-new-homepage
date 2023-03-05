@@ -30,7 +30,7 @@
 .categories .right-cont {
     /* color: gray; */
     flex: 1;
-    font-size: 20px;
+    font-size: 24px;
     display: flex;
     padding-left: 10px;
     /* padding-top: 20px; */
@@ -45,10 +45,17 @@
     justify-content: center;
     margin: 50px;
 }
-.categories .cat-cards .cards-main{
+.categories .cat-cards .cards-main-1 {
     margin: 10px;
     background-color: #fff;
     padding: 50PX;
+    border-radius: 36px 0px 0px 36px;
+}
+.categories .cat-cards .cards-main-2 {
+    margin: 10px;
+    background-color: #fff;
+    padding: 50PX;
+    border-radius: 0px 36px 36px 0px;;
 }
 
 .categories .cards-list{
@@ -73,11 +80,18 @@
 .categories .cards-list li{
     padding: 0.1em;
 }
-.categories .cards-main img{
+.categories .cards-main-1 img{
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.categories .cards-main h2{
+.categories .cards-main-2 img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.categories .cards-main-1 h2{
+    padding-bottom: 10px;
+}
+.categories .cards-main-2 h2{
     padding-bottom: 10px;
 }
 .categories .cards-mains img{
