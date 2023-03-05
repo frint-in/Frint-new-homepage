@@ -3,7 +3,7 @@
 }
 
 .footer-logo {
-    flex: 0.3;
+    flex: 0.5;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -13,7 +13,7 @@
 
 .footer-nav {
     display: flex;
-    flex: 0.4;
+    flex: 1;
     align-items: center;
     text-align: justify;
     justify-content: center;
@@ -37,7 +37,7 @@
     font-size: 20px;   
 }
 .footer-social-media{
-    flex: 0.3;
+    flex: 0.5;
     display: flex;
     align-content: center;
     align-items: center;

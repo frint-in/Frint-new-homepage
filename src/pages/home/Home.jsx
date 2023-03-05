@@ -8,6 +8,7 @@ import Card from '../../components/socialCard/Card'
 import Gallery from '../../components/gallery/Gallery'
 import Partners from '../../components/partners/Partners'
 import Services from '../../components/services/Services'
+import Categories from '../../components/categories/categories'
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
         <Hero />
         <Laptop />
         <Services/>
+        <Categories />
         <Footer />
     </>
   )
