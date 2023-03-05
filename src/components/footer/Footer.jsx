@@ -41,8 +41,8 @@ const Footer = () => {
         <div className="footer-nav">
           <ul className="footer-nav-list">
             <li className="footer-nav-item">Home</li>
-            <li className="footer-nav-item">Browse Internships</li>
-            <li className="footer-nav-item">Our services</li>
+            <li className="footer-nav-item">Internships</li>
+            <li className="footer-nav-item">Services</li>
             <li className="footer-nav-item">Contact us</li>
           </ul>
         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           <img className="footer-social-media-item" src="src\assets\social-media\facebook.jpeg" alt="FB-social-media" width={50}/>
           <img className="footer-social-media-item" src="src\assets\social-media\twitter.png" alt="TW-social-media" width={50}/>
           <img className="footer-social-media-item" src="src\assets\social-media\instagram.jpeg" alt="IG-social-media" width={50}/>
-          <img className="footer-social-media-item" src="src\assets\social-media\linkedin.png" alt="LID" width={50}/>
+          <img className="footer-social-media-item" src="src\assets\social-media\linkedin.png" url="" alt="LID" width={50}/>
         </div>
       </div>
       <div className="copyright">

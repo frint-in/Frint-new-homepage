@@ -31,21 +31,23 @@
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     padding-right: 1em;
     padding-left: 1em;
     font-size: 20px;   
 }
 .footer-social-media{
     flex: 0.3;
+    display: flex;
     align-content: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: start;
 }
 
-.footer-social-media-item{
-    display: flex;
-    
+.footer-social-media-item{ 
     padding-left: 10px;
+    align-items: center;
+    justify-content: start;
 }
 .copyright{
     background-color: #4666FF;
