@@ -12,16 +12,17 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
     width: 60%;
     height: 100vh;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    
 
     .sectionName {
         width: 60%;
-
+        font-size: 4.5em;
+        padding-left: 140px;
         .sectionBorder {
             width: 73px;
             height: 0px;
@@ -36,11 +37,13 @@
             font-weight: 400;
             font-size: .9em;
             line-height: 97.5%;
+            font-size: 20px;
             /* identical to box height, or 12px */
 
             letter-spacing: 0.4em;
 
             color: #000000;
+           
         }
     }
 
@@ -59,8 +62,20 @@
             text-align: left;
         }
 
+
+
+    }
+
+    .sectionDetails{
+        padding-left: 140px;
     }
 }
+
+.sectionDetails{
+    font-size: 1.2em;
+    text-align: left;
+}
+
 
 .scroll {
     width: 40%;
@@ -138,3 +153,83 @@
 .scroll div:nth-child(3){
     background: #44318D;
 } */
+
+
+// Service Section Responsiveness 
+
+@media (max-width:1100px){
+    .wrapper{
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .scroll{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .scroll div{
+        margin-bottom: 10px;
+        height: fit-content;
+        width: 300px;
+        min-width: 300px;
+        margin: 10px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .title{
+        position: static;
+        height: fit-content;
+        width: 100%;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    .name{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: 7px;
+    }
+
+    .serviceBody{
+        margin: 5px;
+        margin-bottom: 10px;
+        min-width: 300px;
+        height: fit-content;
+    }
+
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+          /* Start at 0 */
+        }
+      
+        100% {
+          transform: translateX(-100%);
+          /* End at -100% */
+        }
+      }
+
+      .title .sectionName{
+        font-size: 1.4em;
+      }
+
+      .title {
+        .sectionName{
+            
+  padding: 0px;
+          
+        }
+       
+        .sectionDetails{
+            padding: 0px;
+        }
+      }
+      
+}

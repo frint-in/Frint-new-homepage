@@ -10,18 +10,19 @@ import Partners from '../../components/partners/Partners'
 import Services from '../../components/services/Services'
 import Categories from '../../components/categories/categories'
 
+
 export const Home = () => {
   return (
     <>
         {/* <Parallax pages={4}>
         <ParallaxLayer></ParallaxLayer>
         </Parallax> */}
-        {/* <Navbar /> */}
-
+        <Navbar />
         <Hero />
         <Laptop />
         <Services/>
         <Categories />
+        <Card />
         <Footer />
     </>
   )

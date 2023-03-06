@@ -1,96 +1,72 @@
-import { useRef } from "react";
 import "./navbar.scss";
+import "./Logo.png";
+import { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaArrowAltCircleUp } from 'react-icons/fa';
+
 
 const Navbar = () => {
-  const navMenu = useRef();
-  const hamIcon = useRef();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
-    // <div className="navbar">
-    //   <header>
-    //     <div
-    //       ref={navMenu}
-    //       className="menu-collapsed"
-    //       onClick={() => {
-    //         navMenu.current.classList.toggle("menu-expanded");
-    //       }}
-    //     >
-    //         {/* <a href="#" className="logo">
-    //       <img className="logo" src="src/assets/logo.png" alt="" />
-    //     </a> */}
-    //       <div className="bar"></div>
-    //       <nav>
-    //         <ul>
-    //           <li style={{ "--clr": "#00ade1" }} className="nav-link">
-    //             <a href="#">About</a>
-    //           </li>
-    //           <li>
-    //             <a href="#">About</a>
-    //           </li>
-    //           <li>
-    //             <a href="#">Clients</a>
-    //           </li>
-    //           <li>
-    //             <a href="#">Contact Us</a>
-    //           </li>
-    //         </ul>
-    //       </nav>
-    //     </div>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <a href="/" className="navbar-logo">
+        Frint
+        </a>
 
-    //     {/* <input type="checkbox" id="menu-btn" className="menu-btn" />
-    //     <label for="menu-btn" className="menu-icon">
-    //       <span className="menu-icon__line"></span>
-    //     </label>
-    //     <ul className="nav-links">
-    //       <li style={{'--clr': "#00ade1"}}  className="nav-link">
-    //         <a href="#">About</a>
-    //       </li>
-    //       <li className="nav-link">
-    //         <a href="#">Services</a>
-    //       </li>
-    //       <li className="nav-link">
-    //         <a href="#">Contact</a>
-    //       </li>
-    //     </ul> */}
-    //   </header>
-    // </div>
-    <nav class="navbar" className="menu-active">
-  <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/2/23/AS_sample_logo.png" alt="LOGO" /></div>
-  <div class="push-left">
-    <button id="menu-toggler" data-class="menu-active" ref={hamIcon} class="hamburger" 
-    // onClick={() => {hamIcon.current.classList.toggle('menu-active')}}
-    >
-      <span class="hamburger-line hamburger-line-top"></span>
-      <span class="hamburger-line hamburger-line-middle"></span>
-      <span class="hamburger-line hamburger-line-bottom"></span>
-    </button>
+        <div className="navbar-links">
+          <a href="/" className="navbar-link">
+            Home
+          </a>
+          <a href="/about" className="navbar-link">
+            Internships
+          </a>
 
-    <ul id="primary-menu" class="menu nav-menu">
-      <li class="menu-item current-menu-item"><a class="nav__link"  href="#">Home</a></li>
-      <li class="menu-item dropdown"><a class="nav__link"  href="#">About</a>
-         <ul class="sub-nav" >
-          <li><a class="sub-nav__link" href="#">link 1</a></li>
-          <li><a class="sub-nav__link" href="#">link 2</a></li>
-          <li><a class="sub-nav__link" href="#">link 3 - long link - long link - long link</a></li>
-        </ul>
-
-      </li>
-      <li class="menu-item dropdown"><a class="nav__link"  href="#">Contact</a>
-        <ul class = "sub-nav">
-          <li><a class="sub-nav__link"  href="#">link 1</a></li>
-          <li><a class="sub-nav__link"  href="#">link 2</a></li>
-          <li><a class="sub-nav__link"  href="#">link 3 - long link - long link - long link</a></li>
-        </ul>
-      </li>
-      <li class="menu-item "><a class="nav__link"  href="#">Blog</a>
-       
-      </li>
-    </ul>
+          <a href="/about" className="navbar-link">
+            About
+          </a>
+          <a href="/contact" className="navbar-link">
+            Contact
+          </a>
 
 
-  </div>
-</nav>
+        </div>
 
+        <div className="navbar-buttons">
+          <button className="navbar-button">Sign In</button>
+          <button className="navbar-button navbar-button--primary">Get Started For Free     <>
+      <FaArrowAltCircleUp style={{ transform: 'rotate(45deg)' }} />
+    </></button>
+        </div>
+
+        <div className="navbar-toggle" onClick={toggle}>
+          {isOpen ? <FaTimes /> : <FaBars />}
+        </div>
+
+        <div className={`navbar-sidebar ${isOpen ? 'navbar-sidebar--open' : ''}`}>
+          <a href="/" className="navbar-sidebar-link">
+            Home
+          </a>
+          <a href="/about" className="navbar-sidebar-link">
+            About
+          </a>
+          <a href="/contact" className="navbar-sidebar-link">
+            Contact
+          </a>
+
+          <div className="navbar-sidebar-buttons">
+            
+            <button className="navbar-sidebar-button navbar-sidebar-button--primary">Get Started For Free     <>
+      <FaArrowAltCircleUp style={{ transform: 'rotate(45deg)' }} />
+    </></button>
+    
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 

@@ -32,9 +32,7 @@ const Services = () => {
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae
                             provident expedita mollitia magni aliquam! Harum distinctio at est.
                             Consequuntur suscipit maxime, omnis corporis quo excepturi qui.
-                            Aperiam dolorum quaerat error consequuntur. Iusto aliquid quasi
-                            asperiores magni aut tempore dicta, veritatis perferendis. Provident
-                            reprehenderit temporibus blanditiis nisi hic? Dolorem, voluptas?
+
                         </p>
                     </div>
 
@@ -42,28 +40,24 @@ const Services = () => {
                 <div>
                     <div className="serviceBody">
                         <img src="https://www.workandlearnindiana.com/assets/images/home--intro-graphic.png" />
-                        <h2>Internships</h2>
+                        <h2>Freelance</h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae
                             provident expedita mollitia magni aliquam! Harum distinctio at est.
                             Consequuntur suscipit maxime, omnis corporis quo excepturi qui.
-                            Aperiam dolorum quaerat error consequuntur. Iusto aliquid quasi
-                            asperiores magni aut tempore dicta, veritatis perferendis. Provident
-                            reprehenderit temporibus blanditiis nisi hic? Dolorem, voluptas?
+
                         </p>
                     </div>
                 </div>
                 <div>
                     <div className="serviceBody">
                         <img src="https://www.workandlearnindiana.com/assets/images/home--intro-graphic.png" />
-                        <h2>Internships</h2>
+                        <h2>Student Tools</h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae
                             provident expedita mollitia magni aliquam! Harum distinctio at est.
                             Consequuntur suscipit maxime, omnis corporis quo excepturi qui.
-                            Aperiam dolorum quaerat error consequuntur. Iusto aliquid quasi
-                            asperiores magni aut tempore dicta, veritatis perferendis. Provident
-                            reprehenderit temporibus blanditiis nisi hic? Dolorem, voluptas?
+
                         </p>
                     </div>
                 </div>

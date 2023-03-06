@@ -28,7 +28,7 @@
     }
     .button {
       background: #ffffff;
-      margin-top: 20px;
+      margin-top: 5px;
       border-radius: 8px;
       width: 186px;
       height: 56px;
@@ -42,6 +42,7 @@
       font-size: 18px;
       line-height: 32px;
       color: #4666ff;
+      margin-bottom: 20px;
     }
 
     .shape{
@@ -66,4 +67,27 @@
         clip-path: polygon(65% 42%, 76% 53%, 75% 100%, 46% 71%);
     }
   }
+}
+
+.circle-cutout{
+  display: none;
+
+}
+
+@media(max-width: 900px){
+
+  .card{
+    width: 100%;
+  }
+  .socialCard .card .title{
+    width: 100%;
+    font-size: 1.4em;
+    line-height: 1.7em;
+    width: 95%;
+  }
+
+  .socialCard .card .square-cutout{
+    display: none;
+  }
+
 }
